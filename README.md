@@ -1,1 +1,1 @@
-A small project for React Bootstrap
+A small project with React Bootstrap
