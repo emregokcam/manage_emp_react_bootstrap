@@ -19,7 +19,7 @@ const AddForm = () => {
     const {name, email, address, phone} = newEmployee;
 
     const onInputChange = (e) => {
-        setNewEmployee({...setNewEmployee, [e.target.name]: e.target.value})
+        setNewEmployee({...newEmployee, [e.target.name]: e.target.value})
     }
 
     const handleSubmit = (e) => {
